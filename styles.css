@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa&family=Cinzel&family=EB+Garamond&family=Edu+SA+Beginner&family=Hind+Vadodara:wght@300;400&family=Koulen&family=Lobster&family=Mouse+Memoirs&family=Nanum+Gothic&family=Noto+Sans&family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@400;600&family=PT+Sans+Narrow&family=Playfair+Display:ital@0;1&family=Poiret+One&family=Press+Start+2P&family=Prompt&family=Rajdhani:wght@300&family=Raleway:wght@100;200&family=Splash&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.background_img{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.pokedex{
+    width: 600px;
+    height: 600px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+.pokedex img{
+    width: 900px;
+    height: 750px;
+}
+
+
+#incrementar{
+    position: absolute;
+    top: 560px;
+    right: 62px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: solid rgb(202, 175, 175);
+    background-color: #b63b3d;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Press Start 2P';
+}
+#decrementar{
+    position: absolute;
+    top: 610px;
+    right: 62px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: solid rgb(202, 175, 175);
+    background-color: #b63b3d;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Press Start 2P';
+}
+#search{
+    position: absolute;
+    top: 495px;
+    left: 80px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #b63b3d;
+    border: solid rgb(202, 175, 175);
+    cursor: pointer;
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+}
+#valor{
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Press Start 2P';
+    bottom: 20px;
+    right: 210px;
+}
+
+
+
+/* errores */
+.error_igual_card{
+    display: none;
+}
+.error_cero_card{
+    display: none;
+}
+#error_msg{
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    color: red;
+    letter-spacing: 1px;
+}
+.message_icon{
+    position: absolute;
+    width: 400px;
+    top: 20px;
+    left: 600px;
+}
+/* ------------------------- */
+
+
+.card{
+    position: absolute;
+    top: 120px;
+    left: 325px;
+    font-family: 'Press Start 2P';
+   
+}
+.card i{
+    display: absolute;
+    font-size: 20px;
+}
+.card img{
+    width: 90px;
+    height: 90px;
+}
+.pokemonName{
+    position: absolute;
+    top: -10px;
+    left: -75px;
+    font-size: 12px;
+    font-family: 'Press Start 2P';
+}
+
+/* ICONOS */
+
+
+.fa-solid.fa-circle-question{
+   
+    left: -75px;
+    top: 90px;
+}
+
+.fa-solid.fa-heart{
+   
+    left: -75px;
+    bottom: 20px;
+    color: green;
+}
+
+.fa-sharp.fa-solid.fa-burst{
+    
+    left: -75px;
+    bottom: -5px;
+    color: orangered;
+}
+
+.fa-sharp.fa-solid.fa-shield{
+   
+    left: -75px;
+    bottom: -28px;
+    color: blue;
+}
+
+.stats{
+    position: absolute;
+    right: -85px;
+    width: 250px;
+}
+.stats p:nth-child(1){
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.inicio{
+    width: 240px;
+    height: 220px;
+    position: absolute;
+    font-family: 'Press Start 2P';
+    font-size: 13px;
+    top: 150px;
+    left: 250px;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    padding: 3px;
+    text-align: center;
+}

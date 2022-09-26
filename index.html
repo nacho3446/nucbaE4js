@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="/assets/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>pokedex</title>
+</head>
+<body>
+  <img src="/assets/background.jpg" alt="pikachu wallpaper" class="background_img">
+
+
+
+
+  <div class="pokedex">
+    <img src="/assets/pngegg (9).png" alt="pokedex">
+        <form id="form">
+      <input type="button" value="+" id="incrementar">
+      <input type="button" value="-" id="decrementar">
+      <input type="submit" value="Search" id="search">
+      <p id="valor"></p>
+    </form>
+  </div>
+
+
+
+
+<!-- ERRORES -->
+<div class="error_cero_card">
+   <img src="/assets/pngegg (10).png" alt="message icon" class="message_icon">
+   <small id="error_msg">Por favor introduce <br><br> un numero valido.</small>
+</div>
+<div class="error_igual_card">
+  <img src="/assets/pngegg (10).png" alt="message icon" class="message_icon">
+  <small id="error_msg">¡Ya se esta mostrando <br><br>ese pokemon!</small>
+</div>
+  <!-- ------------------------- -->
+
+
+<div class="card_container">
+
+</div>
+
+<div class="inicio">
+  <h2>¡Encuentra tu pokemon favorito!</h2>
+</div>
+
+
+    <script src="/main.js"></script>
+    <script src="/api.js"></script>
+</body>
+</html>
